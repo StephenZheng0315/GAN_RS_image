@@ -17,15 +17,15 @@
 将大小为100的随机噪声矢量提供给生成器。生成器有4个转置卷积层，每一层之后是批处理正规化和泄漏无关性。再次卷积第4层的输出以获得形状为128x128x3的图像向量。生成的图像随后被传递到由五个卷积层组成的鉴别器网络中，每个卷积层还伴随着批处理归一化和泄漏非线性。第五层的输出被压平并压缩成一个单一的概率值。基于此值，对模型进行了优化。
 
 ### Sample Images
-![alt text](https://github.com/StephenZheng0315/GAN_RS_image/tree/master/sample_images/01.png)
-![alt text](https://github.com/StephenZheng0315/GAN_RS_image/tree/master/sample_images/04.png)
-![alt text](https://github.com/StephenZheng0315/GAN_RS_image/tree/master/sample_images/03.png)
-![alt text](https://github.com/StephenZheng0315/GAN_RS_image/tree/master/sample_images/02.png)
-![alt text](https://github.com/StephenZheng0315/GAN_RS_image/tree/master/sample_images/05.png)
+![alt text](https://github.com/StephenZheng0315/GAN_RS_image/blob/master/sample_images/01.png)
+![alt text](https://github.com/StephenZheng0315/GAN_RS_image/blob/master/sample_images/02.png)
+![alt text](https://github.com/StephenZheng0315/GAN_RS_image/blob/master/sample_images/03.png)
+![alt text](https://github.com/StephenZheng0315/GAN_RS_image/blob/master/sample_images/04.png)
+![alt text](https://github.com/StephenZheng0315/GAN_RS_image/blob/master/sample_images/05.png)
 
 ### Losses
 
-![alt text](https://github.com/StephenZheng0315/GAN_RS_image/tree/master/sample_images/losses_198.png)
+![alt text](https://github.com/StephenZheng0315/GAN_RS_image/blob/master/sample_images/losses_198.png)
 
 
 
